@@ -34,5 +34,19 @@ describe('Game', function() {
     it('should be an instance of a Game', function() {
       //expect new game to be an instance of a game
       expect(game).to.be.an.instanceOf(Game);
-    })
+    });
+    //it should start the game with start function
+    it('should be able to start the game', function() {
+      //expect game to start when method is called
+      expect(game.start).to.be.a('function');
+    });
+    //it should create a deck of cards and round to be played
+    it('should create a deck of cards and a round to be played', function() {
+      //start game
+      game.start();
+      //create an instance of deck
+      expect(deck).to.be.an.instanceOf(Deck);
+      //create an instance of round
+      expect(game.currentRound).to.be.an.instanceOf(Round);
+    });
 });
