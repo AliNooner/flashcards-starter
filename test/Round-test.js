@@ -4,9 +4,6 @@ const Round = require('../src/Round');
 const Deck = require('../src/Deck');
 const Card = require('../src/Card');
 
-
-
-
 describe('Round', function() {
 
   let card1, card2, card3;

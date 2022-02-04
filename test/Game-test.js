@@ -5,7 +5,6 @@ const Deck = require('../src/Deck');
 const Card = require('../src/Card');
 const Game = require('../src/Game');
 
-
 describe('Game', function() {
   //create new variables for cards, deck, round, game
   let card1, card2, card3;
