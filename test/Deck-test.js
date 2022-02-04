@@ -18,18 +18,22 @@ describe('Deck', function() {
   });
 
   it('should be a function', function() {
+
     expect(Deck).to.be.a('function');
   });
 
   it('should be an instance of Desk', function() {
+
     expect(deck).to.be.an.instanceOf(Deck);
   });
 
   it('should be instantiated with an array of Card objects', function() {
+
     expect(deck.cards).to.deep.equal(cards);
   });
 
   it('should be able to count cards in the deck', function() {
+    
     expect(deck.countCards()).to.equal(cards.length);
   });
 });
