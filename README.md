@@ -15,6 +15,12 @@ Flashcards is a fun trivia-style game that a user can play in their terminal. Us
 
 ## Visuals
 
+<img width="956" alt="Screen Shot 2022-02-03 at 7 58 42 PM" src="https://user-images.githubusercontent.com/92279624/152460021-d317520e-69fc-477b-ab5b-6b1ebc7afc7c.png">
+
+<br/>
+<br/>
+
+<img width="956" alt="Screen Shot 2022-02-03 at 7 58 55 PM" src="https://user-images.githubusercontent.com/92279624/152460070-6e4b3b49-16ee-4d62-a8a6-f5bb43409d55.png">
 
 ## Set Up
 1. Fork this repo  
