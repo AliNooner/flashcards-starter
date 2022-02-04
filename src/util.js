@@ -8,7 +8,7 @@ const genList = (round) => {
       key: index,
       value: answer
     }
-  });
+});
   return {
     type: 'rawlist',
     message: card.question,

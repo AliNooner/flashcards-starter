@@ -11,7 +11,7 @@ class Game {
   };
   start() {
     //create card variable which goes through prototype questions and its properties
-    let cards = prototypeQuestions.map((card) => new Card(card.id, card.question, card.cardAnswers, card.correctAnswer));
+    let cards = prototypeQuestions.map((card) => new Card(card.id, card.question, card.answers, card.correctAnswer));
     let deck = new Deck(cards);
     this.currentRound = new Round(deck);
     this.printMessage(deck, this.currentRound);
